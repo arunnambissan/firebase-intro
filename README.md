@@ -11,3 +11,9 @@ firebase.database().ref("ref").push({
   comments: "test",
 });
 ```
+
+
+**Saving files to storage**
+```
+firebase.storage().ref(filename).put(file);
+```
