@@ -28,3 +28,24 @@ document.getElementById("email").value
 ```
 document.getElementById("file").files[0]
 ```
+
+# HTML
+**Text input**
+```
+<input type="text" id="name" />
+```
+
+**Email input**
+```
+<input type="email" id="email" />
+```
+
+**File input**
+```
+<input type="file" id="file" />
+```
+
+**Button**
+```
+<button onclick="submitForm()">Submit</button>
+```
