@@ -71,3 +71,6 @@ firebase.auth().signInAnonymously().then(() => {
 # More
 **Slide**
 https://docs.google.com/presentation/d/1cWWRGilpyXAHVE7otKy9_MOL-9jGUNIYWgmzSnqU3NM/edit?usp=sharing
+
+**Firebase Console**
+https://console.firebase.google.com/
