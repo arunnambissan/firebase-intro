@@ -32,6 +32,11 @@ document.getElementById("email").value
 document.getElementById("file").files[0]
 ```
 
+**JavaScript - getting values of an object**
+```
+let records = Object.values(recordObject);
+```
+
 # Firebase
 **Pushing data to realtime database**
 
