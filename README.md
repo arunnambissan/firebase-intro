@@ -56,7 +56,9 @@ firebase.storage().ref(filename).put(file);
 **Fetch data in realtime**
 ```
 firebase.database().ref("ref").on('value', (data) => {
-    let records =  data.val();
+    let recordsObject =  data.val();
+    
+    console.log("recordsObject", recordsObject);
 });
 ```
 
