@@ -1,6 +1,3 @@
-# firebase-intro
-
-
 # Firebase
 **Saving to database**
 
