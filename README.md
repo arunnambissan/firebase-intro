@@ -48,6 +48,12 @@ firebase.database().ref("ref").push({
 firebase.storage().ref(filename).put(file);
 ```
 
+**Anonymous Auth**
+```
+firebase.auth().signInAnonymously().then(() => {
+  // auth success
+})
+
 # More
 **Slide**
 https://docs.google.com/presentation/d/1cWWRGilpyXAHVE7otKy9_MOL-9jGUNIYWgmzSnqU3NM/edit?usp=sharing
