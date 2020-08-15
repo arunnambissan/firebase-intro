@@ -21,6 +21,11 @@
 <button onclick="submitForm()">Submit</button>
 ```
 
+**Changing html contents** 
+```
+document.getElementById("div-id").innerHTML = "Test content";
+```
+
 # JavaScript
 **JavaScript - getting input value using it's id**
 ```
