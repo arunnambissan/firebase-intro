@@ -48,6 +48,14 @@ firebase.database().ref("ref").push({
 firebase.storage().ref(filename).put(file);
 ```
 
+**Fetch data in realtime**
+```
+firebase.database().ref("ref").on('value', (data)=>{
+    let records =  data.val();
+});
+```
+
+
 **Anonymous Auth**
 ```
 firebase.auth().signInAnonymously().then(() => {
