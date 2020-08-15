@@ -53,6 +53,7 @@ firebase.storage().ref(filename).put(file);
 firebase.auth().signInAnonymously().then(() => {
   // auth success
 })
+```
 
 # More
 **Slide**
