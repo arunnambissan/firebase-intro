@@ -11,6 +11,16 @@
 <input type="email" id="email" />
 ```
 
+**File input**
+```
+<input type="file" id="file" />
+```
+
+**Button**
+```
+<button onclick="submitForm()">Submit</button>
+```
+
 # JavaScript
 **JavaScript - getting input value using it's id**
 ```
@@ -20,16 +30,6 @@ document.getElementById("email").value
 **JavaScript - getting file from file input using it's id**
 ```
 document.getElementById("file").files[0]
-```
-
-**File input**
-```
-<input type="file" id="file" />
-```
-
-**Button**
-```
-<button onclick="submitForm()">Submit</button>
 ```
 
 # Firebase
