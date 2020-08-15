@@ -1,20 +1,14 @@
 # Introduction to Google Firebase
 
-# Firebase
-**Saving to database**
-
+# HTML
+**Text input**
 ```
-firebase.database().ref("ref").push({
-  name: "test",
-  email: "test",
-  comments: "test",
-});
+<input type="text" id="name" />
 ```
 
-
-**Saving files to storage**
+**Email input**
 ```
-firebase.storage().ref(filename).put(file);
+<input type="email" id="email" />
 ```
 
 # JavaScript
@@ -28,17 +22,6 @@ document.getElementById("email").value
 document.getElementById("file").files[0]
 ```
 
-# HTML
-**Text input**
-```
-<input type="text" id="name" />
-```
-
-**Email input**
-```
-<input type="email" id="email" />
-```
-
 **File input**
 ```
 <input type="file" id="file" />
@@ -47,4 +30,20 @@ document.getElementById("file").files[0]
 **Button**
 ```
 <button onclick="submitForm()">Submit</button>
+```
+
+# Firebase
+**Saving to database**
+
+```
+firebase.database().ref("ref").push({
+  name: "test",
+  email: "test",
+  comments: "test",
+});
+```
+
+**Saving files to storage**
+```
+firebase.storage().ref(filename).put(file);
 ```
