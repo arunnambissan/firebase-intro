@@ -33,7 +33,7 @@ document.getElementById("file").files[0]
 ```
 
 # Firebase
-**Pushing data to database**
+**Pushing data to realtime database**
 
 ```
 firebase.database().ref("ref").push({
